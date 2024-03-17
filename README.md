@@ -49,3 +49,9 @@ The data set contains the following diseases:
   - Chose an appropriate optimiser and loss function for model training
   - Trained the model for ~50 epochs
   - Wrote the findings after the model fit, the overfitting was fixed and the accuracy improved
+ 
+# Findings
+
+
+
+
