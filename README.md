@@ -40,5 +40,12 @@ The data set contains the following diseases:
   - Chose an appropriate optimiser and loss function for model training
   - Trained the model for ~30 epochs
   - Wrote the findings after the model fit, and commented whether the overfitting and underfitting is fixed or not
- 
-  - 
+- **Class distribution** → Examined the current class distribution in the training dataset 
+   - Which class has the least number of samples? **Seaborrheic keratosis least number of samples**
+   - Which classes dominate the data in terms of the proportionate number of samples? **Melanoma, pigmented benign keratosis and basal cell carcinoma dominate the samples**
+- **Handling class imbalances** → Rectified class imbalances present in the training dataset with Augmentor library.
+- **Model Building & training on the rectified class imbalance data** →
+  - Created a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
+  - Chose an appropriate optimiser and loss function for model training
+  - Trained the model for ~50 epochs
+  - Wrote the findings after the model fit, the overfitting was fixed and the accuracy improved
