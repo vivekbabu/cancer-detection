@@ -52,6 +52,10 @@ The data set contains the following diseases:
  
 # Findings
 
+We built the initial model with the provided images
+
+![Initial Model](./Initial Model.png)
+
 
 
 
