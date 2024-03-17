@@ -52,9 +52,26 @@ The data set contains the following diseases:
  
 # Findings
 
-We built the initial model with the provided images
+1. We built the initial model with the provided images. 
 
-![Initial Model](./Initial Model.png)
+![Initial Model](https://github.com/vivekbabu/cancer-detection/blob/main/Initial%20Model.png))
+
+- We can see the accuracy is low
+- The model is overfitting
+
+2. We used some strategies like random flip, zoom, random rotation and then built a model again
+
+![Second Model](https://github.com/vivekbabu/cancer-detection/blob/main/Second%20Model.png))
+
+- We can see the accuracy is still low
+- The model overfitting has reduced
+
+3. We saw that their was class imbalances. So we used the Augmentor library to add more samples across all classes so that none of the classes have very few samples. And then we built the final model
+
+![Final Model](https://github.com/vivekbabu/cancer-detection/blob/main/Final%20Model.png))
+
+- We saw that the accuracy has drastically improved
+- The model overfitting has also reduced from the first model
 
 
 
